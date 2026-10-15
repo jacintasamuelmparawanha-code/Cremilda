@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0d47a1;
+  color: white;
+  padding: 15px 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.btn-anunciar {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: #e3f2fd;
+}
+.hero-text {
+  max-width: 50%;
+}
+#kupata{
+  color:green;
+}
+.hero-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-perdi { background: #f44336; color: white; }
+.btn-encontrei { background: #4caf50; color: white; }
+
+/* Categorias */
+.categorias {
+  padding: 30px;
+  text-align: center;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cat {
+  background: #bbdefb;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Anúncios */
+.anuncios {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.col {
+  width: 45%;
+  background: #f1f8e9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-right: 100px;
+}
+
+/* Como funciona */
+
+/* Footer */
+footer {
+  width: 100%;
+  background: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer a{
+  color: #bbdefb;
+  text-decoration: none;
+}
